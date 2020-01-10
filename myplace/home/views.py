@@ -9,4 +9,6 @@ def home_page(request):
     for place in all_places:
         print(place.place_name)
     ctx['places']=all_places
+    ctx['tab']='home'
     return  render(request,'home/home_page.html',ctx)
+

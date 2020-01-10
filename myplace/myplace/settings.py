@@ -41,7 +41,8 @@ INSTALLED_APPS = [
 ]
 
 CUSTOM_APP=[
-    'home'
+    'home',
+    'calc'
 ]
 
 INSTALLED_APPS+=CUSTOM_APP

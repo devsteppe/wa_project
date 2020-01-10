@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a573e78-2b14-4caa-bfd2-52142ccd05f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myplace/calc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/calc/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/calc/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/calc/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/calc/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/calc/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/calc/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/calc/views.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/home/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/home/admin.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/home/apps.py" afterDir="false" />
@@ -11,6 +19,7 @@
       <change afterPath="$PROJECT_DIR$/myplace/home/tests.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/home/urls.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/home/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/templates/calc/calc_form.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/templates/footer.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/templates/header.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/templates/home/home_page.html" afterDir="false" />
@@ -75,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578596487429</updated>
-      <workItem from="1578596488526" duration="6977000" />
+      <workItem from="1578596488526" duration="10044000" />
     </task>
     <servers />
   </component>
