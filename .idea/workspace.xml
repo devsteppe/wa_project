@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/myplace/calc/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/calc/admin.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/calc/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/calc/calc_obj.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/calc/migrations/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/calc/models.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myplace/calc/tests.py" afterDir="false" />
@@ -36,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -84,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578596487429</updated>
-      <workItem from="1578596488526" duration="10044000" />
+      <workItem from="1578596488526" duration="16357000" />
     </task>
     <servers />
   </component>

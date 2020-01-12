@@ -3,7 +3,99 @@
 {% block content %}
 
   <h1>Calc page!!!!</h1>
+<div class="container">
+<!--<form action="/ ">-->
+<!--    login <input type="text">-->
+<!--    password <input type="password">-->
+<!--    <div>-->
+<!--        number-->
+<!--        <input type="number">-->
+<!--    </div>-->
 
-<input type="text">
+<!--    <div>-->
+<!--        submit-->
+<!--        <input type="reset">-->
+<!--    </div>-->
+
+<!--    <div>-->
+<!--        range-->
+<!--        <input type="range">-->
+
+<!--    </div>-->
+
+<!--    <div>-->
+<!--        checkbox-->
+<!--        <input type="checkbox" checked>-->
+
+<!--    </div>-->
+
+<!--    <div>-->
+<!--        radio-->
+<!--        1<input type="radio" name="x">-->
+<!--        2<input type="radio" name="x">-->
+<!--        3<input type="radio" name="x">-->
+<!--        4<input type="radio" name="x">-->
+<!--        5<input type="radio" name="x" checked>-->
+
+<!--    </div>-->
+
+<!--    <div>-->
+<!--        select-->
+<!--        <select name="" id="">-->
+<!--            <option value="">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</option>-->
+<!--            <option value="">good </option>-->
+<!--            <option value="">okay </option>-->
+<!--            <option value="">bad </option>-->
+
+
+
+<!--        </select>-->
+
+
+
+
+
+<!--    </div>-->
+
+
+<!--    <button class="btn btn-success">Submit!</button>-->
+
+
+<!--</form>-->
+
+
+
+    <form action="/calculator" method="post">
+        {% csrf_token %}
+
+        <input type="number" name="first">
+        <select name="operation" id="">
+            {% for oper in operation %}
+            <option value="{{oper}}">{{oper}}</option>
+            {% endfor %}
+
+        </select>
+
+
+
+
+    <input type="number" name="second">
+
+            <button class="btn btn-primary">Calculate</button>
+    </form>
+
+    {% if errors %}
+
+    <p class="alert alert-danger">{{errors}}</p>
+
+    {% endif %}
+
+    {% if result %}
+    <p class="alert alert-success">{{result}}</p>
+    {% endif %}
+
+
+
+    </div>
 
 {% endblock %}
